@@ -1,0 +1,49 @@
+/* RESET CSS */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* GLOBAL FONT */
+
+body{
+  font-family: "Trocchi", serif;
+  background-color:#ffffff;
+  color:#000000;
+}
+
+/* DEFAULT ELEMENT */
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Trocchi", serif;
+}
+
+p{
+  font-family: "Trocchi", serif;
+}
+
+button{
+  font-family: "Trocchi", serif;
+  cursor:pointer;
+}
+
+input, textarea, select{
+  font-family: "Trocchi", serif;
+  outline:none;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+ul{
+  list-style:none;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}

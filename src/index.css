@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== RESET CSS ===== */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Trocchi", serif;
+}
+
+/* ===== GLOBAL ROOT ===== */
+
+:root{
+  --primary:#8cce90;
+  --secondary:#29795a;
+  --accent:#5ec9aa;
+  --background:#071307;
+  --text:#def4e1;
+}
+
+/* ===== GLOBAL STYLE ===== */
+
+body{
+  background-color: var(--background);
+  background-image: radial-gradient(circle at top left, rgba(255,255,255,0.16), transparent 18%),
+                    radial-gradient(circle at bottom right, rgba(255,255,255,0.08), transparent 22%);
+  color: var(--text);
+  min-height:100vh;
+  line-height:1.5;
+  scroll-behavior: smooth;
+}
+
+button{
+  transition: all 200ms ease;
+}
+
+input, textarea, select{
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* ===== INPUT ===== */
+
+input, textarea, select{
+  border:none;
+  outline:none;
+}
+
+/* ===== BUTTON ===== */
+
+button{
+  cursor:pointer;
+  border:none;
+}
+
+/* ===== LINK ===== */
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+/* ===== LIST ===== */
+
+ul,ol{
+  list-style:none;
+}
+
+/* ===== IMAGE ===== */
+
+img{
+  max-width:100%;
+  display:block;
+}
